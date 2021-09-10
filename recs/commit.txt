@@ -1,0 +1,5 @@
+"Upgrade PostgreSQL."
+
+"Add Elasticsearch."
+
+yarn create strapi-app quickapp --quickstart --no-run
