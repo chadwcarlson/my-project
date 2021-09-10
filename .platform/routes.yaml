@@ -6,7 +6,7 @@
 
 "https://{default}/":
     type: upstream
-    upstream: "appb:http"
+    upstream: "app:http"
 
 "https://www.{default}/":
     type: redirect

@@ -1,11 +1,10 @@
-name: 'appb'
+name: 'app'
 type: 'python:3.8'
 dependencies:
     python3:
        pipenv: '2018.10.13'
 relationships:
     database: "database:postgresql"
-
 web:
     upstream:
         socket_family: unix
