@@ -1,5 +1,5 @@
 name: 'app'
-type: 'python:3.8'
+type: 'python:3.9'
 dependencies:
     python3:
        pipenv: '2018.10.13'
