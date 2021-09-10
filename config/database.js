@@ -1,6 +1,6 @@
 const config = require("platformsh-config").config();
 
-let dbRelationship = "database";
+let dbRelationship = "postgresdatabase";
 
 // Strapi default sqlite settings.
 let settings =  {
